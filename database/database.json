@@ -1,37 +1,187 @@
 {
-    "products": [
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike Air Brown",
+      "img": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80",
+      "price": 1987000,
+      "stock": 5,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+    },
+    {
+      "id": 2,
+      "name": "Nike Air Jordan",
+      "img": "https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+      "price": 2543000,
+      "stock": 6,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+    },
+    {
+      "id": 3,
+      "name": "Nike Revolt",
+      "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+      "price": 1765000,
+      "stock": 2,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+    },
+    {
+      "id": 4,
+      "name": "Nike Green",
+      "img": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80",
+      "price": 2143000,
+      "stock": 21,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+    }
+  ],
+  "users": [
+    {
+      "email": "w@gmail.com",
+      "password": "123456",
+      "id": 1
+    }
+  ],
+  "carts": [],
+  "transactions": [
+    {
+      "idUser": "1",
+      "status": "Cancelled",
+      "total": 2543000,
+      "detail": [
         {
-          "id": 1,
-          "name": "Nike Air Brown",
-          "img": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80",
-          "price": 1987000,
-          "stock": 8,
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
-        },
-        {
-          "id": 2,
-          "name": "Nike Air Jordan",
-          "img": "https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-          "price": 2543000,
-          "stock": 9,
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
-        },
-        {
-          "id": 3,
-          "name": "Nike Revolt",
-          "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-          "price": 1765000,
-          "stock": 6,
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
-        },
-        {
-          "id": 4,
-          "name": "Nike Green",
-          "img": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80",
-          "price": 2143000,
-          "stock": 7,
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+          "productName": "Nike Air Jordan",
+          "productID": 2,
+          "productPrice": 2543000,
+          "productQuantity": 1,
+          "productImage": "https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
         }
       ],
-      "users" : []
+      "id": 1
+    },
+    {
+      "idUser": "1",
+      "status": "Paid",
+      "total": 14267000,
+      "detail": [
+        {
+          "productName": "Nike Air Jordan",
+          "productID": 2,
+          "productPrice": 2543000,
+          "productQuantity": 1,
+          "productImage": "https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+          "productName": "Nike Revolt",
+          "productID": 3,
+          "productPrice": 1765000,
+          "productQuantity": 3,
+          "productImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+          "productName": "Nike Green",
+          "productID": 4,
+          "productPrice": 2143000,
+          "productQuantity": 3,
+          "productImage": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "idUser": "1",
+      "status": "Paid",
+      "total": 16010000,
+      "detail": [
+        {
+          "productName": "Nike Revolt",
+          "productID": 3,
+          "productPrice": 1765000,
+          "productQuantity": 3,
+          "productImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+          "productName": "Nike Green",
+          "productID": 4,
+          "productPrice": 2143000,
+          "productQuantity": 5,
+          "productImage": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "idUser": "1",
+      "status": "Cancelled",
+      "total": 6429000,
+      "detail": [
+        {
+          "productName": "Nike Green",
+          "productID": 4,
+          "productPrice": 2143000,
+          "productQuantity": 3,
+          "productImage": "https://images.unsplash.com/photo-1596568359553-a56de6970068?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1028&q=80"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "idUser": "1",
+      "status": "Cancelled",
+      "total": 2543000,
+      "detail": [
+        {
+          "productName": "Nike Air Jordan",
+          "productID": 2,
+          "productPrice": 2543000,
+          "productQuantity": 1,
+          "productImage": "https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "idUser": "1",
+      "status": "Cancelled",
+      "total": 1765000,
+      "detail": [
+        {
+          "productName": "Nike Revolt",
+          "productID": 3,
+          "productPrice": 1765000,
+          "productQuantity": 1,
+          "productImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "idUser": "1",
+      "status": "Cancelled",
+      "total": 1765000,
+      "detail": [
+        {
+          "productName": "Nike Revolt",
+          "productID": 3,
+          "productPrice": 1765000,
+          "productQuantity": 1,
+          "productImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "idUser": "1",
+      "status": "Cancelled",
+      "total": 1765000,
+      "detail": [
+        {
+          "productName": "Nike Revolt",
+          "productID": 3,
+          "productPrice": 1765000,
+          "productQuantity": 1,
+          "productImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        }
+      ],
+      "id": 8
+    }
+  ]
 }

@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { BrowserRouter, Switch, Link, Route, Redirect } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Navbar from "./Components/Navbar";
+import LandingPage from "./Pages/LandingPages";
+import Login from "./Pages/Login";
+import AddToCart from "./Pages/AddToCart";
+import UserCart from "./Pages/UserCart";
+import TransactionHistory from "./Pages/TransactionHistory";
+
+export default class App extends React.Component{
+  render(){
+    return(
+      <div>
+        <Navbar/>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path='/' component={LandingPage} />
+            <Route path='/product-detail/:ProductID' component={AddToCart} />
+            <Route path='/user-cart/:userID' component={UserCart} />
+            <Route path='/transaction-history/:transactionID' component={TransactionHistory} />
+            <Route path='/login'>
+                {
+                  localStorage.getItem('id')?
+                    <Redirect to='/' />
+                    :
+                    <Login />
+                }  
+            </Route>
+          </Switch>
+        </BrowserRouter>
+      </div>
+    )
+  }
 }
-
-export default App;
